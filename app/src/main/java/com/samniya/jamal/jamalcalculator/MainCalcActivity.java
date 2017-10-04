@@ -44,7 +44,11 @@ public class MainCalcActivity extends AppCompatActivity implements View.OnClickL
         result=(TextView)findViewById(R.id.result);
         btnminos.setOnClickListener(this);
         btnplus.setOnClickListener(this);
-        btnplus.setOnClickListener(this);
+        button3.setOnClickListener(this);
+        button4.setOnClickListener(this);
+        btneq.setOnClickListener(this);
+        butoon6.setOnClickListener(this);
+        button7.setOnClickListener(this);
     }
 
     @Override
